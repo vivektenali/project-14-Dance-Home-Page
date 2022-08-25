@@ -161,3 +161,44 @@ img[src="./Assets/down-arrow-svgrepo-com.svg"]{
     right: 70;
     top: 60;
 }
+
+@media only screen and (max-width: 570px) {
+  
+  
+    .left-content{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+   
+
+    .list-items{
+       display: flex;
+        flex-direction: column; 
+       margin-left: 0px;
+    }
+
+    .right-content{
+       display: flex;
+        flex-direction: column;  
+        font-size: 14px;
+    }
+
+ 
+    .bottom-list{
+         display: flex;
+        flex-direction: column;
+    }
+
+    .list-items{
+           display: flex;
+        flex-direction: column; 
+    }
+
+    .right-paragraph{
+        font-size: 8px;
+        margin-left: 0px;
+    }
+
+}
